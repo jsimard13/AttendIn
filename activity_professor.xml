@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Professor">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="231dp"
+        android:layout_height="379dp"
+        android:src="@drawable/GSU_Logo"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <EditText
+        android:id="@+id/crn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:hint="Enter CRN"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/attendance_query"
+        android:layout_below="@id/crn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Query"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+</RelativeLayout>
